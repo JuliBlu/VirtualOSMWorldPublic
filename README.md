@@ -3,6 +3,8 @@ Overview:
 
 The Virtual World Simulator is an innovative web-based application developed using A-Frame and Three.js, designed to render real-world environments within a virtual reality (VR) setting. This application allows users to upload OpenStreetMap (OSM) files, which are then parsed and displayed in a 3D virtual world, providing an immersive simulation of actual geographical locations.
 
+![alt text](https://github.com/Rezarak/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Tokio.PNG)
+
 ## OSM File Integration:
 
 Users can upload OSM files directly into the application.
@@ -37,7 +39,6 @@ Tourism and Exploration: Users can explore famous landmarks and cities virtually
 
 
 ## Images
-![alt text](https://github.com/Rezarak/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Tokio.PNG)
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/JuliBlu/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/StuttgartHBF.PNG" alt="Preview" width="200"/>
