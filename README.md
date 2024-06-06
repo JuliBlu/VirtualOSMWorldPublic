@@ -5,7 +5,7 @@ Creating virtual Worlds from OpenStreetMap data.
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Rezarak/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Tokio.PNG" alt="Preview" width="200"/>
-  <img src="https://github.com/JuliBlu/VirtualOSMWorldPublic/blob/main/Thesis/Thesis%20Bilder/Tokio.PNG" alt="Preview" width="200"/>
+  <img src="https://github.com/JuliBlu/VirtualOSMWorldPublic/blob/main/Thesis/Thesis%20Bilder/Manhatten.PNG" alt="Preview" width="200"/>
   <img src="https://github.com/JuliBlu/VirtualOSMWorldPublic/blob/main/Thesis/Thesis%20Bilder/ExKarte.PNG" alt="Preview" width="200"/>
 </div>
 
