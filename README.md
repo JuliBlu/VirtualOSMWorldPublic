@@ -7,6 +7,7 @@ Creating virtual Worlds from OpenStreetMap data.
   <img src="https://github.com/JuliBlu/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/StuttgartHBF.PNG" alt="Preview" width="200"/>
   <img src="https://github.com/JuliBlu/VirtualOSMWorldPublic/blob/main/Thesis/Thesis%20Bilder/Manhatten.PNG" alt="Preview" width="200"/>
   <img src="https://github.com/JuliBlu/VirtualOSMWorldPublic/blob/main/Thesis/Thesis%20Bilder/ExKarte.PNG" alt="Preview" width="200"/>
+  <img src="https://github.com/JuliBlu/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Umgebung.PNG" alt="Preview" width="200"/>
 </div>
 
 Installazion needs a http server. 
