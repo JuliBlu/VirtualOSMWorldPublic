@@ -13,7 +13,8 @@ A-Frame and Three.js Visualization:
 
 Leveraging the power of A-Frame and Three.js, the application creates a rich, interactive 3D environment.
 The virtual world accurately represents the real-world structures and layouts as provided by the OSM data.
-Realistic Environment Simulation:
+
+## Realistic Environment Simulation:
 
 The application translates the parsed OSM data into detailed 3D models.
 Users can navigate through the virtual world using VR headsets or standard web browsers, offering both immersive and accessible experiences.
