@@ -1,0 +1,59 @@
+<!--
+Copyright 2019 Julian Blumenröther
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A-Frame World</title>
+  <meta name="description" content="A-Frame World">
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script type="text/javascript" src="ascript.js"></script>
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.1/dist/aframe-extras.min.js"></script>
+  <script src="https://unpkg.com/aframe-fps-counter-component/dist/aframe-fps-counter-component.min.js"></script>
+  <script src="aframe-spherical-controls-component.js"></script>
+</head>
+
+<body>
+
+  <a-scene city>
+
+    <a-assets>
+      <img src="https://img.gs/bbdkhfbzkk/stretch/https://i.imgur.com/25P1geh.png" id="grid" crossorigin="anonymous">
+      <img id="sky" src="https://img.gs/bbdkhfbzkk/2048x2048,stretch/http://i.imgur.com/WqlqEkq.jpg" crossorigin="anonymous">
+    </a-assets>
+
+    <a-entity id="camrig" movement-controls="fly: true; speed:0.01">
+      <a-entity camera id="cam" position="0 0 0" active="true" look-controls></a-entity>
+    </a-entity>
+
+    <a-entity id="spherecamrig" spherical-controls="radius: 2000.1; lat: 0; lng: 0;" animation="property: spherical-controls.speed; from: 0; to: 0.04; dur: 2000" log-coordinates position="0 0 0">
+      <a-camera id="spherecam" position="0 0 0" active="true"></a-camera>
+    </a-entity>
+
+    <a-entity id="sphere" geometry="primitive: sphere; segmentsHeight: 100; segmentsWidth: 100;" scale="2000 2000 2000" position="0 0 0" rotation="0 0 0"
+      material="color: #050012; repeat: 100000 100000; transparent: true; metalness:0.6; roughness: 0.4; sphericalEnvMap: #sky;"></a-entity>
+
+    <a-box xaxis position="0 0 0" scale="7000 5 5" color="#ff0000"></a-box>
+    <a-box yaxis position="0 0 0" scale="5 7000 5" color="#00ff00"></a-box>
+    <a-box zaxis position="0 0 0" scale="5 5 7000" color="#0000ff"></a-box>
+    <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+
+  </a-scene>
+
+
+</body>
+
+</html>
