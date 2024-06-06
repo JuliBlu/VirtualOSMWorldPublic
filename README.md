@@ -1,6 +1,6 @@
 # VirtualOSMWorld
 Creating virtual Worlds from OpenStreetMap data.
-
+## Images
 ![alt text](https://github.com/Rezarak/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Tokio.PNG)
 
 <div style="display: flex; justify-content: space-around;">
@@ -10,6 +10,7 @@ Creating virtual Worlds from OpenStreetMap data.
   <img src="https://github.com/JuliBlu/VirtualOSMWorld/blob/master/Thesis/Thesis%20Bilder/Umgebung.PNG" alt="Preview" width="200"/>
 </div>
 
+## Installation
 Installazion needs a http server. 
 Installation via npm:
 Fist install nodejs: https://nodejs.org/en/
@@ -17,6 +18,7 @@ Fist install nodejs: https://nodejs.org/en/
 In the console type: 
 `npm install -g http-server`
 
+### OSMParser
 Use the osmparser.jar file to create a JSON file from osm data:
 In the console type: 
 `javac -jar osmparser.jar filename.osm`
@@ -24,6 +26,7 @@ In the console type:
 This will create a new `map.json` file to the same directory the `osmparser.jar` file is in.
 Drag this file to the same directory as the `index.html` file.
 
+### OSMServer
 Start the http server in the same directory as the index.html file:
 In the console type: `http-server .`
 
